@@ -99,7 +99,7 @@ export function ShareCard({
                 new ClipboardItem({ "image/png": blob }),
               ]);
               setStatus("Copied image to clipboard!");
-            } catch (err) {
+            } catch {
               const ok = await (async () => {
                 try {
                   await navigator.clipboard.writeText(buildShareText(result, topIssueCount));

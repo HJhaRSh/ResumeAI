@@ -118,7 +118,7 @@ export default function ResultsPage() {
                        <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse shadow-[0_0_8px_rgba(167,139,250,0.8)]" />
                        Targeted Fit Analysis
                      </p>
-                     This score is a <span className="text-violet-200 font-bold">50/50 blend</span> of your resume's general ATS quality and its specific semantic match against the Job Description you provided.
+                     This score is a <span className="text-violet-200 font-bold">50/50 blend</span> of your resume&apos;s general ATS quality and its specific semantic match against the Job Description you provided.
                    </div>
                    {/* Tooltip arrow */}
                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[8px] w-0 h-0 border-l-[8px] border-r-[8px] border-b-[8px] border-l-transparent border-r-transparent border-b-violet-500" />

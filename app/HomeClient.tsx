@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { BadgeCheck, Cpu, Loader2, Sparkles, Upload, FileText, Zap, ShieldCheck, BarChart3, Clock, Trophy, Lock, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useMemo, useState, useEffect } from "react";
+import { Suspense, useMemo, useState } from "react";
 import Marquee from "react-fast-marquee";
 
 import { FilePreview } from "@/components/upload/FilePreview";
@@ -467,7 +467,7 @@ function HomeInner() {
             
             <h2 className="text-3xl md:text-4xl font-black text-white mb-4">Your data belongs to <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">you.</span></h2>
             <p className="text-zinc-400 max-w-2xl text-[15px] leading-relaxed">
-              We built ResumeCheck AI with absolute privacy as the foundational principle. You don't need to trust us with your data, because we never keep it.
+              We built ResumeCheck AI with absolute privacy as the foundational principle. You don&apos;t need to trust us with your data, because we never keep it.
             </p>
           </div>
           

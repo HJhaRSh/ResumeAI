@@ -294,7 +294,7 @@ export async function POST(request: Request) {
 
     let jdMatchData: AnalysisResult["jdMatch"] = undefined;
     if (parsedJson?.jdMatch) {
-      let rawScore = parsedJson.jdMatch.score;
+      const rawScore = parsedJson.jdMatch.score;
       let numericScore = 0;
       if (typeof rawScore === "number") {
         numericScore = rawScore;
