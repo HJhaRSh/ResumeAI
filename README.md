@@ -72,3 +72,29 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ---
 
 ## Project Structure
+
+```
+ResumeAI/
+├── app/          # Next.js App Router pages and API routes
+├── components/   # Reusable UI components
+├── hooks/        # Custom React hooks
+├── lib/          # Utility functions and AI client setup
+├── .env.example  # Environment variable template
+└── tailwind.config.ts
+```
+
+---
+
+## Deployment
+
+Deploy instantly on [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HJhaRSh/ResumeAI)
+
+Add your `ANTHROPIC_API_KEY` and `GOOGLE_GENERATIVE_AI_API_KEY` to the Vercel project's environment variables before deploying.
+
+---
+
+## Author
+
+**Harsh Jha** — [github.com/HJhaRSh](https://github.com/HJhaRSh)
