@@ -97,4 +97,4 @@ Add your `ANTHROPIC_API_KEY` and `GOOGLE_GENERATIVE_AI_API_KEY` to the Vercel pr
 
 ## Author
 
-**Harsh Jha** — [github.com/HJhaRSh](https://github.com/HJhaRSh)
+**Harsh Jain** — [github.com/HJhaRSh](https://github.com/HJhaRSh)
