@@ -2,7 +2,7 @@
 
 An AI-powered resume analysis and enhancement tool built with Next.js 14. Upload your resume as a PDF or DOCX and get instant, intelligent feedback powered by Claude (Anthropic) and Gemini (Google).
 
-**Live Demo:**[https://resume-ai-amber-tau.vercel.app](https://resume-ai-one-psi.vercel.app/))
+**Live Demo:**[https://resume-ai-amber-tau.vercel.app](https://resume-ai-one-psi.vercel.app/)
 
 ---
 
